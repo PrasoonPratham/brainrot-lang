@@ -1,0 +1,79 @@
+// Class declaration using sigma
+sigma SquadManager {
+    pookie squad = []; 
+
+    // Function to add an item to the squad
+    bruh addMember(pookie member) {
+        delulu {
+            yoink squad[squad.length] = member; // Adding member to the squad
+            yap("Member yoinked: ", member);
+            solulu squad;
+        } catch (error) {
+            oof("Error while yoinking member: ", error);
+        }
+    }
+
+    // Function to remove an item from the squad
+    bruh removeMember(pookie index) {
+        sus (index < squad.length && index >= 0) {
+            yeet squad[index]; // Removing member from the squad
+            yap("Member yeeted from position: ", index);
+            solulu squad;
+        } bussin (squad.length == cap) {
+            oof("Can't yeet from an empty squad.");
+        } no_cap {
+            oof("Invalid index for yeet operation.");
+        }
+    }
+
+    // Function to display the array (squad)
+    bruh showSquadDetails() {
+        sus (squad.length == cap) {
+            yap("The squad is empty, pookie.");
+        } no_cap {
+            yap("Current squad: ", squad);
+        }
+        solulu ohio; 
+    }
+
+    // Special function marked as goated for high-priority operations
+    goated bruh findMember(pookie name) {
+        pookie found = ohio; // Initialized as null
+        bet (pookie i = 0; i < squad.length; i++) {
+            sus (squad[i] == name) {
+                found = name;
+                break;
+            }
+        }
+        sus (found != ohio) {
+            yap("Pookie found: ", found);
+        } no_cap {
+            yap("Pookie not found.");
+        }
+        solulu found;
+    }
+}
+
+// Main program initiation
+cook {
+    pookie manager = new SquadManager();
+
+    // Adding members
+    manager.addMember("Alex");
+    manager.addMember("Taylor");
+    manager.addMember("Jordan");
+
+    // Display the squad
+    manager.showSquadDetails();
+
+    // Attempting to remove a member
+    manager.removeMember(1);
+    manager.showSquadDetails();
+
+    // Finding a member
+    manager.findMember("Taylor");
+    manager.findMember("Jordan");
+}
+
+// End of program
+ghost;

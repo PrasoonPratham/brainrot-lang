@@ -1,0 +1,20 @@
+cook {
+    yap("Hello, World!");
+
+    fr (0 > 9){
+        yap("noob");
+    }
+    no_cap (5 > 4){
+        yap("not noob");
+    }
+    cap{
+        yap("oof");
+    }
+    bet (pookie i = 0, i < 11, i = i + 1){
+        yap(i);
+    }
+
+    pookie x = 69420;
+
+    yap("pookie x is ", x);
+}

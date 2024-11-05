@@ -1,0 +1,52 @@
+# Build directories
+build/
+out/
+Debug/
+Release/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+.cmake/
+Makefile
+
+# Compiled files
+*.o
+*.out
+*.exe
+brainrotlang
+
+# LLVM generated files
+*.ll
+*.bc
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependency directories
+vendor/
+external/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Test output files
+*.log
+*.tlog
